@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BowlingKata
+namespace KataBowling
 {
     public class Partie
     {

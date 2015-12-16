@@ -7,8 +7,8 @@
     <ProjectGuid>{4E8B918A-A9AE-4E84-8A85-CF4D077DE0D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BowlingKata</RootNamespace>
-    <AssemblyName>BowlingKata</AssemblyName>
+    <RootNamespace>KataBowling</RootNamespace>
+    <AssemblyName>KataBowling</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PartieTest.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Partie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

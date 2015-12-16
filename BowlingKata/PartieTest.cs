@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace BowlingKata
+namespace KataBowling
 {
     [TestFixture]
     public class PartieTest
@@ -14,7 +14,7 @@ namespace BowlingKata
         }
 
         [Test]
-        public void le_score_dune_partie_gouttière_est_0()
+        public void Le_score_dune_partie_gouttière_est_0()
         {
             NouveauxLancers(20, 0);
 
@@ -24,7 +24,7 @@ namespace BowlingKata
         }
 
         [Test]
-        public void le_score_dune_partie_modeste_est_modeste()
+        public void Le_score_dune_partie_modeste_est_modeste()
         {
             NouveauxLancers(20, 1);
 
@@ -34,7 +34,7 @@ namespace BowlingKata
         }
 
         [Test]
-        public void le_score_prend_en_compte_le_bonus_dun_spare()
+        public void Le_score_prend_en_compte_le_bonus_dun_spare()
         {
             NouveauxLancers(1, 9);
             NouveauxLancers(1, 1);
@@ -47,7 +47,7 @@ namespace BowlingKata
         }
 
         [Test]
-        public void le_score_prend_en_compte_le_bonus_dun_strike()
+        public void Le_score_prend_en_compte_le_bonus_dun_strike()
         {
             NouveauxLancers(1, 10);
             NouveauxLancers(1, 1);
